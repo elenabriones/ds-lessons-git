@@ -18,7 +18,8 @@ GIT is free and open source
 comandos:
     git clone --> copia el codigo entero del repositorio remoto (primera vez)
     git pull --> Descargar el  codigo del repositorio remoto (siguientes veces)
-    git branch --> Crea una rama para desarrollar sin cargarnos nada y nos permite volver a atras
+    git branch --> Crea una rama para desarrollar sin cargarnos nada (añadiendo el nombre) y nos permite volver a atras
+                --> listamos todas las ramas 
     git checkout --> cambiar de rama, si es con comando de fichero -- main.py  se va a la version del repositorio local
     git status --> nos dice el estado actual
     git revert --> ctl Z
@@ -47,3 +48,6 @@ para no subir datos añadir archivo dentro del proyecto ptincipal el archivo .gi
     se le pone la ruta
     se le pone ruta y nombre de archivo
     poniendo estructuras ...
+
+
+si se hace git add de algo que no se quiere commitear se puede quitar con git restore.....
